@@ -1,7 +1,7 @@
 #include <iostream>
-
-int main() 
+using namespace std;
+int main()
 {
-  static_assert("C++17");
-  std::cout << "Hello world\n";
+  cout << "Hello world\n";
+  return 0;
 }
